@@ -1,0 +1,129 @@
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VolleyZone — Результати матчів</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">VolleyZone</div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Головна</a></li>
+          <li><a href="../index.html#teams">Команди</a></li>
+          <li><a href="#">Результати</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="results">
+      <div class="container">
+        <h1>Результати матчів</h1>
+
+        <div class="division-selector">
+          <label for="division">Дивізіон:</label>
+          <select id="division">
+            <option value="east">Схід</option>
+            <option value="west">Захід</option>
+            <option value="central">Центр</option>
+          </select>
+
+          <label for="group">Група / Сітка:</label>
+          <select id="group">
+            <option value="a">Група А</option>
+            <option value="b">Група Б</option>
+            <option value="grid">Турнірна сітка</option>
+          </select>
+        </div>
+
+        <div class="match-results">
+          <table>
+            <thead>
+              <tr>
+                <th>Дата</th>
+                <th>Команда А</th>
+                <th>Команда Б</th>
+                <th>Рахунок</th>
+                <th>Місце</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>20.05.2025</td>
+                <td>Київські Яструби</td>
+                <td>Харківські Титани</td>
+                <td>3:1</td>
+                <td>Київ Арена</td>
+              </tr>
+              <tr>
+                <td>22.05.2025</td>
+                <td>Львівські Леви</td>
+                <td>Івано-Франківські Орли</td>
+                <td>2:3</td>
+                <td>Львів Арена</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="standings">
+      <div class="container">
+        <h2>Турнірна таблиця</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Команда</th>
+              <th>Перемоги</th>
+              <th>Поразки</th>
+              <th>Очки</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Київські Яструби</td>
+              <td>5</td>
+              <td>1</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Одеські Дельфіни</td>
+              <td>4</td>
+              <td>2</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Львівські Леви</td>
+              <td>3</td>
+              <td>3</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Харківські Титани</td>
+              <td>2</td>
+              <td>4</td>
+              <td>6</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 VolleyZone. Всі права захищені.</p>
+    </div>
+  </footer>
+</body>
+</html>

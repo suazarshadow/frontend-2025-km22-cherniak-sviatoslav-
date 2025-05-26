@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VolleyZone — Головна</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">VolleyZone</div>
+      <nav>
+        <ul>
+          <li><a href="#">Головна</a></li>
+          <li><a href="#teams">Команди</a></li>
+          <li><a href="#matches">Матчі</a></li>
+          <li><a href="#players">Гравці</a></li>
+          <li><a href="#news">Новини</a></li>
+          <li><a href="#fan">Фан-зона</a></li>
+          <li><a href="#login">Увійти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Ласкаво просимо до VolleyZone!</h1>
+        <p>Офіційна платформа волейбольної ліги України</p>
+        <button>Дивитись матчі</button>
+      </div>
+    </section>
+
+    <section id="teams" class="teams">
+      <div class="container">
+        <h2>Команди ліги</h2>
+        <div class="team-grid">
+          <article class="team-item">
+            <div class="team-header">
+              <img src="img/logo-kyiv.png" alt="Логотип Київських Яструбів" class="team-logo">
+              <h3><a href="teams/kyiv.html">Київські Яструби</a></h3>
+            </div>
+            <img src="img/team-kyiv.jpg" alt="Київські Яструби" class="team-photo">
+            <p>Одна з найстаріших команд ліги з потужною атакою та зірковим тренерським складом.</p>
+          </article>
+
+          <article class="team-item">
+            <div class="team-header">
+              <img src="img/logo-lviv.png" alt="Логотип Львівських Левів" class="team-logo">
+              <h3><a href="teams/lviv.html">Львівські Леви</a></h3>
+            </div>
+            <img src="img/team-lviv.jpg" alt="Львівські Леви" class="team-photo">
+            <p>Молода, але амбіційна команда з чудовим захистом та шаленою підтримкою вболівальників.</p>
+          </article>
+
+          <article class="team-item">
+            <div class="team-header">
+              <img src="img/logo-odesa.png" alt="Логотип Одеських Дельфінів" class="team-logo">
+              <h3><a href="teams/odesa.html">Одеські Дельфіни</a></h3>
+            </div>
+            <img src="img/team-odesa.jpg" alt="Одеські Дельфіни" class="team-photo">
+            <p>Команда з півдня, яка славиться своїми комбінаціями та гнучкою стратегією гри.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="form-section">
+      <div class="container">
+        <h2>Підписка на новини</h2>
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="interest">Що вас цікавить?</label>
+          <select id="interest" name="interest">
+            <option value="news">Новини</option>
+            <option value="matches">Матчі</option>
+            <option value="players">Гравці</option>
+          </select>
+
+          <label for="comment">Коментар:</label>
+          <textarea id="comment" name="comment"></textarea>
+
+          <input type="submit" value="Підписатися">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 VolleyZone. Всі права захищені.</p>
+    </div>
+  </footer>
+</body>
+</html>
